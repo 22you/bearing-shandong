@@ -1,0 +1,24 @@
+<!--pages/about/about.wxml-->
+<import src="../footer/footer.wxml" />
+<import src="../header/header.wxml" />
+<view class="header">
+ <template is="headerTemplate"></template>
+</view>
+<view class="container">
+  
+  <view class="synopsis">
+    <text class="synopsis-font">公司简介</text>
+    <view class="synopsis-box">
+      <image src="/images/about.jpg" class="synopsis-img"></image>
+      <text class="summary-content detail-text">山东哈轴通用轴承销售有限公司为哈尔滨哈轴通用轴承制造有限公司山东总代理，哈尔滨哈轴通用轴承制造有限公司（哈轴集团公司成品六分厂）是黑龙江省高新技术企业，秉承集团的技术和品牌优势，充分利用公司在产品设计和加工制造的优势，不断开发新产品和产品质量的提升。</text>
+      <text class="detail-text summary-content">
+        山东哈轴通用轴承销售有限公司将以“铸人品、讲信用、塑精品、重创新、严管理、求效益”的企业形象，以一流的产品，一流的服务，与海内外朋友携手共创美好灿烂的明天。
+      </text>
+    </view>
+  </view>
+</view>
+<view class="clear"></view>
+<view class="hr"></view>
+<view class="footer-template">
+  <template is="footerTemplate" />
+</view>

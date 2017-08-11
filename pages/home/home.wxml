@@ -1,0 +1,40 @@
+<!--pages/home/home.wxml-->
+<import src="../footer/footer.wxml" />
+<import src="../header/header.wxml" />
+<view class="header">
+ <template is="headerTemplate"></template>
+</view>
+<view class="home-box">
+  <swiper vertical="{{false}}" indicator-dots="true" autoplay="true" interval="5000">
+    <swiper-item>
+      <image id="7" src="/images/slide1.jpg" data-postId="3"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/slide2.jpg" data-postId="4"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/slide3.jpg" data-postId="5"></image>
+    </swiper-item>
+  </swiper>
+  <block wx:for="{{postList}}" wx:for-item="item" wx:for-index="idx">
+    <!--//template-->
+    <view catchtap="onPostTap" data-postId="{{item.postId}}">
+      <template is="postItem" data="{{...item}}" />
+    </view>
+  </block>
+</view>
+<view class="products-show">
+  <text class="products-title">公司展示</text>
+  <view class="products-box">
+    <image src="/images/company/1.jpg"></image>
+    <image src="/images/company/2.jpg"></image>
+    <image src="/images/company/3.jpg"></image>
+    <image src="/images/company/4.jpg"></image>
+    <image src="/images/company/5.jpg"></image>
+    <image src="/images/company/6.jpg"></image>
+  </view>
+</view>
+<view class="hr"></view>
+<view class="footer-template">
+    <template is="footerTemplate" />
+  </view>

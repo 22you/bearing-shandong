@@ -1,0 +1,22 @@
+.about-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30rpx;
+}
+
+
+.address-left {
+  margin-right: 10rpx;
+  flex-basis:100%;
+   display: flex;
+}
+.address-label {
+  width: 125rpx;
+    font-size: 30rpx;
+   color:#000;
+}
+.address-con {
+  flex-basis: 540rpx;
+   font-size: 30rpx;
+}

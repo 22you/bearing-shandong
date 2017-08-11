@@ -1,0 +1,54 @@
+<import src="../footer/footer.wxml" />
+<import src="../header/header.wxml" />
+<view class="header">
+ <template is="headerTemplate"></template>
+</view>
+<view class="product-box">
+<view class="cast-container">
+  <image src="../../images/products/circleb.jpg" class="cast-img"></image>
+  <text class="cast-name">圆轨滑块</text>
+</view>
+<view class="cast-container">
+  <image src="../../images/products/jkzh.jpg" class="cast-img"></image>
+  <text class="cast-name">进口轴承总汇</text>
+</view>
+<view class="cast-container">
+  <image src="../../images/products/mainzhou.jpg" class="cast-img"></image>
+  <text class="cast-name">主轴轴承</text>
+</view>
+<view class="cast-container">
+  <image src="../../images/products/rbntn.jpg" class="cast-img"></image>
+  <text class="cast-name">日本NTN轴承</text>
+</view>
+<view class="cast-container">
+  <image src="../../images/products/rbnsk.jpg" class="cast-img"></image>
+  <text class="cast-name">日本NSK轴承</text>
+</view>
+<view class="cast-container">
+  <image src="../../images/products/srdh.jpg" class="cast-img"></image>
+  <text class="cast-name">施润德润滑脂1KG</text>
+</view>
+<view class="cast-container">
+  <image src="../../images/products/srdhong.jpg" class="cast-img"></image>
+  <text class="cast-name">施润德润滑脂红桶</text>
+</view>
+<view class="cast-container">
+  <image src="../../images/products/zhouall.jpg" class="cast-img"></image>
+  <text class="cast-name">轴承总汇</text>
+</view>
+<view class="cast-container">
+  <image src="../../images/products/zhuic.jpg" class="cast-img"></image>
+  <text class="cast-name">圆锥滚子轴承</text>
+</view>
+<view class="cast-container">
+  <image src="../../images/products/zjt.jpg" class="cast-img"></image>
+  <text class="cast-name">账紧套</text>
+</view>
+
+
+
+</view>
+<view class="hr"></view>
+<view class="footer-template">
+    <template is="footerTemplate" />
+  </view>

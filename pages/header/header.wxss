@@ -1,0 +1,24 @@
+.header {
+  background: transparent;
+   width: 100%;
+  padding: 10rpx 0;
+}
+
+.author-date {
+  flex-direction: row;
+  margin-left: 30rpx;
+}
+
+.avatar {
+  height: 110rpx;
+  width: 150rpx;
+  vertical-align: middle;
+}
+
+.header-text{
+  font-size: 30rpx;
+  font-weight: 300;
+  margin-left: 20rpx;
+  vertical-align: middle;
+  color: #666;
+}

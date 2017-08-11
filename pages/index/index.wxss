@@ -1,0 +1,23 @@
+@import "../footer/footer.wxss";
+@import "../header/header.wxss";
+.cast-name{
+  margin:10rpx auto 0;
+}
+.cast-container{
+  display:inline-flex;
+  flex-direction: column;
+  margin-bottom:50rpx;
+ margin-right:40rpx;
+ width:293rpx;
+ height:192rpx;
+ text-align:center;
+ white-space:normal;
+}
+.cast-img{
+  width:293rpx;
+  height:192rpx;
+}
+.product-box{
+  padding:30rpx 0 0 60rpx;
+ border-top:1px solid #eee;
+}

@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/about/about",
+   
+    "pages/index/index"
+    
+    ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#0089d1",
+    "navigationBarTitleText": "哈轴通用轴承山东总代理",
+    "navigationBarTextStyle":"white"
+  },
+    "tabBar": {
+      "borderStyle": "yellow",
+      "position": "bottom",
+      "list": [
+        {
+          "pagePath": "pages/home/home",
+          "text": "首页"
+            },
+        {
+          "pagePath": "pages/index/index",
+          "text": "产品展示"
+            },
+            {
+              "pagePath": "pages/about/about",
+              "text": "关于我们"
+            }
+      ]
+    }
+}

@@ -1,0 +1,39 @@
+/* pages/about/about.wxss */
+@import "../footer/footer.wxss";
+@import "../header/header.wxss";
+.company-con{
+  padding:30px 0 0;
+
+}
+.detail-text{
+  text-indent:2em;
+  font-size: 28rpx;
+  }
+.synopsis-font{
+color:#999;
+}
+.synopsis-box{
+  float:left;
+}
+.synopsis{
+  border-top: 1px solid #eee;
+}
+.synopsis-font{
+  display:block;
+  font-size:35rpx;
+  margin:25rpx 0;
+}
+
+.synopsis-img{
+  width:350rpx;
+  height:300rpx;
+  float:left;
+  margin-right:15rpx;
+}
+
+.summary-content{
+    margin-top: 20rpx;
+    margin-right: 40rpx;
+    line-height:45rpx;
+    letter-spacing: 1px;
+   }

@@ -1,0 +1,6 @@
+<template name="headerTemplate">
+  <view class="author-date">
+    <image class="avatar" src="../../images/logo.png"></image>
+    <text class="header-text">哈轴通用轴承</text>
+  </view>
+</template>
